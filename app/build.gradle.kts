@@ -40,6 +40,10 @@ android {
     }
 }
 
+base {
+    archivesName.set("ThreadInfo_${android.defaultConfig.versionName}")
+}
+
 dependencies {
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
