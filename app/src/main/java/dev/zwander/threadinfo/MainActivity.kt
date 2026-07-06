@@ -102,7 +102,7 @@ class MainActivity : ComponentActivity() {
                                 modifier = Modifier.fillMaxSize(),
                                 contentPadding = WindowInsets.systemBars.asPaddingValues(),
                             ) {
-                                items(items = networks, key = { it.networkName }) { network ->
+                                items(items = networks.distinctBy { it.panId }, key = { it.networkName }) { network ->
                                     Row(
                                         modifier = Modifier.fillMaxWidth()
                                             .heightIn(min = 64.dp)
