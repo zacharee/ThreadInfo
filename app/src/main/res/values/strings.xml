@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">ThreadInfo</string>
+
+    <string name="add_by_pan_id">Find by PAN ID</string>
+    <string name="add_by_pan_id_desc">Enter extended PAN ID</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="pan_id_hint">123,45,67,89,1,234,…</string>
 </resources>
